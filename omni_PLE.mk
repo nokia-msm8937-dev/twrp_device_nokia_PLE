@@ -29,11 +29,11 @@ PRODUCT_PACKAGES += \
     libcryptfs_hw
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := X00P
-PRODUCT_NAME := omni_X00P
-PRODUCT_BRAND := asus
-PRODUCT_MODEL := ASUS_X00PD
-PRODUCT_MANUFACTURER := asus
+PRODUCT_DEVICE := PLE
+PRODUCT_NAME := omni_PLE
+PRODUCT_BRAND := nokia
+PRODUCT_MODEL := nokia_PLE
+PRODUCT_MANUFACTURER := nokia
 
 # Blacklist Properties
 PRODUCT_SYSTEM_PROPERTY_BLACKLIST += \

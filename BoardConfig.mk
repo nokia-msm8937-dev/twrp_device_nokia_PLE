@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/asus/X00P
+LOCAL_PATH := device/nokia/PLE
 
 # Architecture
 TARGET_ARCH := arm64
@@ -79,11 +79,6 @@ TARGET_USERIMAGES_USE_F2FS := true
 
 # Qualcomm support
 BOARD_USES_QCOM_HARDWARE := true
-
-#Init
-TARGET_INIT_VENDOR_LIB := libinit_X00P
-TARGET_RECOVERY_DEVICE_MODULES := libinit_X00P
-TARGET_PLATFORM_DEVICE_BASE := /devices/soc/
 
 # TWRP Configuration
 TW_SCREEN_BLANK_ON_BOOT := true
